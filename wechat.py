@@ -105,5 +105,5 @@ def information(msg):
             msg_information.pop(old_msg_id)
 
 
-itchat.auto_login(hotReload=True)
+itchat.auto_login(enableCmdQR=True, hotReload=True)
 itchat.run()
